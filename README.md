@@ -34,23 +34,16 @@ So, I developed a service technology platform that can reduce various inconvenie
 # Experiments
 *CineLF* provides services divided into employee and customer applications. On the login screen, employees log in with their employee number, and customers log in with their mobile phone number and password.
 
-![employee](https://user-images.githubusercontent.com/26537107/124940372-e3d95080-e044-11eb-96f8-ad4bba8c3b6e.png)
-* In employee applications, it performs functions of registering, inquiring, and managing lost items through 7 menus. You can check the details that need to be checked through the red notification badge on the menu screen.
-
-![customer](https://user-images.githubusercontent.com/26537107/124940380-e50a7d80-e044-11eb-8ab8-ecb0c5e501e4.png)
+<img src="https://user-images.githubusercontent.com/26537107/124940372-e3d95080-e044-11eb-96f8-ad4bba8c3b6e.png" width="200" higeht="400">
+* In employee applications, it performs functions of registering, inquiring, and managing lost items through 7 menus. You can check the details that need to be checked through the red notification badge on the menu screen.      
+   
+    
+<img src="https://user-images.githubusercontent.com/26537107/124940380-e50a7d80-e044-11eb-8ab8-ecb0c5e501e4.png" width="200" higeht="400">
 * In customer applications, lost items can be easily viewed, inquired, and managed through 3 menus. Through the "고객님의 문의에 대한 응답(Response to Customer's Inquiry)" in the middle of the main screen, you can check whether the employee approves the customer's request.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Expected Effects and Future Plans
+* Real-time inquiry of lost items is possible, and limited inquiry time is eased, increasing customer convenience.
+* Easy management of inquiry history using apps reduces congestion of employees.
+* Accessibility can be increased by adding corresponding functions to movie theater apps that are previously used for booking.
+* The service can be expanded by applying it to large-scale places visited by people, such as performance halls, as well as well as movie theaters.
+* User convenience can be enhanced through Kakao Talk channel linkage or chatbot.
