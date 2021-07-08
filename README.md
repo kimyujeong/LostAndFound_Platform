@@ -30,7 +30,7 @@ So, I developed a service technology platform that can reduce various inconvenie
 
 <img src="https://user-images.githubusercontent.com/26537107/124938297-2568fc00-e043-11eb-8901-703ce8fa1a22.png" width="400" higeht="200">
 
-* Used *Erwin data modeler* to describe the averall table realtionship within the *Database*
+* Used *Erwin data modeler* to describe the verall table realtionship within the *Database*
 
 
 # Experiments
