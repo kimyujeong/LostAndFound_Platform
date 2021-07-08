@@ -1,5 +1,5 @@
 # LostAndFound_Platform
- Lost and Found Platform Service For Cinema
+ Lost and Found Platform Service For Cinema (*CineLF*)
  
  
  
@@ -31,4 +31,25 @@ So, I developed a service technology platform that can reduce various inconvenie
 
 
 # Experiments
+*CineLF* provides services divided into employee and customer applications. On the login screen, employees log in with their employee number, and customers log in with their mobile phone number and password.
+
+[employee 사진!!!!!!!!!!!!!!!!!!!]
+* In employee applications, it performs functions of registering, inquiring, and managing lost items through 7 menus. You can check the details that need to be checked through the red notification badge on the menu screen.
+
+[customer 사진!!!!!!!!!!!]
+* In customer applications, lost items can be easily viewed, inquired, and managed through 3 menus. Through the "고객님의 문의에 대한 응답(Response to Customer's Inquiry)" in the middle of the main screen, you can check whether the employee approves the customer's request.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
