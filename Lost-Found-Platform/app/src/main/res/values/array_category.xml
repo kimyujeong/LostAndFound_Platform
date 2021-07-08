@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="카테고리">
+        <item>카테고리 입력</item>
+        <item>지갑</item>
+        <item>휴대폰</item>
+        <item>가방</item>
+        <item>귀금속</item>
+        <item>우산</item>
+        <item>립스틱</item>
+        <item>화장품</item>
+        <item>기타</item>
+    </string-array>
+</resources>

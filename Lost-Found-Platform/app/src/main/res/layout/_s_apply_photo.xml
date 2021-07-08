@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#181818"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="180dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="0dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/enroll_select_image"
+                android:onClick="clickBtn"/>
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/enroll_camera"
+                android:textAllCaps="false"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:onClick="clickBtn2"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_border"
+            android:padding="0dp"
+            android:text="등록"
+            android:textColor="@android:color/white"
+            android:scaleType="fitXY"
+            android:onClick="clickUpload"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/home"
+        app:backgroundTint="#335741"
+        app:elevation="4dp" />
+</RelativeLayout>

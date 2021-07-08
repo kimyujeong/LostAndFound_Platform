@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#181818"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/등록"
+                    android:layout_width="202dp"
+                    android:layout_height="175dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:padding="0dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/enroll" />
+
+                <ImageButton
+                    android:layout_width="203dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/분실물목록"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:padding="0dp"
+                    android:src="@drawable/lostlist"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    <ImageButton
+                        android:id="@+id/승인"
+                        android:layout_width="202dp"
+                        android:layout_height="175dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/transparent"
+                        android:padding="0dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="3dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/accept" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    <ImageButton
+                        android:layout_width="202dp"
+                        android:layout_height="175dp"
+                        android:id="@+id/문의"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:padding="0dp"
+                        android:src="@drawable/ask" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    <ImageButton
+                        android:layout_width="202dp"
+                        android:layout_height="175dp"
+                        android:id="@+id/수령예정분실물"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:padding="0dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="3dp"
+                        android:src="@drawable/expected" />
+
+            </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="202dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/수령완료목록"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:padding="0dp"
+                    android:src="@drawable/completed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    <ImageButton
+                        android:layout_width="202dp"
+                        android:layout_height="175dp"
+                        android:id="@+id/보관기간만료분실물"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:padding="0dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/dateout"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/background"
+        android:id="@+id/tv_approve"
+        android:gravity="center"
+        android:textColor="#ECECEC"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="340dp"
+        android:background="@drawable/background"
+        android:id="@+id/tv_ask"
+        android:gravity="center"
+        android:textColor="#ECECEC"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="388dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/background"
+        android:id="@+id/tv_expected"
+        android:gravity="center"
+        android:textColor="#ECECEC"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="568dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/background"
+        android:id="@+id/tv_expired"
+        android:gravity="center"
+        android:textColor="#ECECEC"
+        android:textSize="15dp" />
+
+</RelativeLayout>
