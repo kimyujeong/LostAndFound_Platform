@@ -21,6 +21,7 @@ So, I developed a service technology platform that can reduce various inconvenie
 
 
 # System Configuration Chart
+![시스템구성도](https://user-images.githubusercontent.com/26537107/124937993-db801600-e042-11eb-8cd3-dc1f5a69cd41.png)
 * User can use the service through the Android application. Apache and PHP used as an intermediate web server for linking Android apps and databases.
   * I could use *SQLite*, the built-in *DB* of *Android Studio*, but *SQLite* is not suitable for concurrency and large data volumes. So, I chose the *MySQL* as *DBMS*.
   * And also, *Android* does not support external *DB* access for security reasons. So, I had to get the data through the *web server*.
