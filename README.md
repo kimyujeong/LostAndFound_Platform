@@ -33,7 +33,7 @@ So, I developed a service technology platform that can reduce various inconvenie
 * Used *Erwin data modeler* to describe the verall table realtionship within the *Database*
 
 
-# Experiments
+# Results
 *CineLF* provides services divided into employee and customer applications. On the login screen, employees log in with their employee number, and customers log in with their mobile phone number and password.
 
 <img src="https://user-images.githubusercontent.com/26537107/124940372-e3d95080-e044-11eb-96f8-ad4bba8c3b6e.png" width="150" higeht="350">
